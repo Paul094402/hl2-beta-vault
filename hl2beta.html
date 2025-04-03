@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore the secrets and history of the Half-Life 2 Beta">
+    <title>HL2 Beta Vault</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #000;
+            color: #00FF00;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #111;
+            padding: 20px;
+            text-align: center;
+            font-size: 2em;
+            border-bottom: 2px solid #333;
+        }
+        header h1 {
+            margin: 0;
+            color: #00FF00;
+        }
+        nav {
+            background-color: #222;
+            padding: 15px;
+            text-align: center;
+        }
+        nav a {
+            color: #00FF00;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 1.2em;
+        }
+        nav a:hover {
+            color: #FF0000;
+        }
+        .container {
+            padding: 30px;
+            text-align: center;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .hidden-link {
+            color: #FF0000;
+            cursor: pointer;
+        }
+        footer {
+            background-color: #111;
+            color: #00FF00;
+            text-align: center;
+            padding: 10px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+        .hidden-content {
+            display: none;
+            margin-top: 20px;
+            font-size: 1.2em;
+            color: #FF0000;
+        }
+    </style>
+    <script>
+        function promptPassword() {
+            var password = prompt("Enter the password to access this content:");
+            if (password === "HL2BV") {  // Password set to HL2BV
+                document.getElementById("secret-content").style.display = "block";
+            } else {
+                alert("Incorrect password. Access denied.");
+            }
+        }
+    </script>
+</head>
+<body>
+
+<header>
+    <h1>HL2 Beta Vault</h1>
+    <p>Delve into the hidden history and content of the Half-Life 2 Beta.</p>
+</header>
+
+<nav>
+    <a href="#history">History</a>
+    <a href="#hidden-content">Hidden Content</a>
+    <a href="#files">Files</a>
+    <a href="#forum">Forum</a>
+</nav>
+
+<div class="container">
+    <section id="history" class="section">
+        <h2>History</h2>
+        <p>Discover the origins and evolution of the Half-Life 2 Beta, including its darker tone and the challenges faced during development.</p>
+        <p class="hidden-link" onclick="promptPassword()">[REDACTED] Click to reveal hidden history...</p>
+        <div id="secret-content" class="hidden-content">
+            <p>The Half-Life 2 Beta underwent significant changes during its development. Originally envisioned as a darker and more industrial game, it featured elements such as the Combine draining Earth's oceans and replacing the atmosphere with toxic gases. Concepts like the "Hydra," a massive, gelatinous creature, and the "Cremator," an enemy designed to clean the streets, were among the many ideas explored before the final release. ([unseen64.net](https://www.unseen64.net/2008/04/05/half-life-2-concept-prototype-beta/</p>
+        </div>
+    </section>
+
+    <section id="hidden-content" class="section">
+        <h2>Hidden Content</h2>
+        <p>Uncover the secrets and cut content that never made it to the final game, including unused maps, characters, and storylines.</p>
+        <p class="hidden-link" onclick="promptPassword()">[REDACTED] Click to access hidden content...</p>
+        <div id="secret-content" class="hidden-content">
+            <p>Throughout its development, many elements were cut from the Half-Life 2 Beta. Notably, the "Wasteland" setting, which depicted a desolate Earth ravaged by the Combine, was removed. Additionally, characters like the "Consul" and settings such as the "Air Exchange" were part of earlier versions but were ultimately excluded from the final game. ([gamerant.com](https://gamerant.com/differences-between-half-life-2-beta-and-final-release/</p>
+        </div>
+    </section>
+
+    <section id="files" class="section">
+        <h2>Files</h2>
+        <p>Access a collection of beta files, including concept art, sound files, and maps that offer a glimpse into the game's development process.</p>
+        <p class="hidden-link" onclick="promptPassword()">[REDACTED] Access beta files...</p>
+        <div id="secret-content" class="hidden-content">
+            <p>A treasure trove of beta files exists, offering insights into the game's early development stages. These include concept art depicting alternative designs for characters and environments, sound files from cut scenes, and maps of levels that were never completed or included in the final release. ([halflifeprerelease.fandom.com](https://halflifeprerelease.fandom.com/wiki/Half_Life_2_Beta</p
+            <ul>
+                <li><a href="files/beta_concept_art.zip" download>Download Beta Concept Art</a></li>
+                <li><a href="files/beta_sound_files.zip" download>Download Beta Sound Files</a></li>
+                <li><a href="files/beta_maps.zip" download>Download Beta Maps</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="forum" class="section">
+        <h2>Forum</h2>
+        <p>Join discussions with other enthusiasts to share findings, theories, and insights about the Half-Life 2 Beta.</p>
+        <p class="hidden-link" onclick="promptPassword()">[REDACTED] Enter the forum...</p>
+        <div id="secret-content" class="hidden-content">
+            <p>To join the forum and participate in discussions, you need to enter the correct password. The password is shared privately with those who contribute to the ongoing research of the Half-Life 2 Beta. For now, explore this site for further clues.</p>
+            <p>Join the ongoing discussions on various HL2 Beta-related subreddits and forums such as the <a href="https://www.reddit.com/r/halfLife/" target="_blank">Half-Life Subreddit</a> or <a href="https://forums.alliedmods.net/" target="_blank">AlliedModders Forum</a>.</p>
+        </div>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2025 HL2 Beta Vault | Access Restricted | All Rights Reserved</p>
+    <p>Disclaimer: This site is a fan project and is in no way affiliated with Valve Corporation. All trademarks and copyrights are the property of their respective owners.</p>
+    <p>The content provided is intended for educational and research purposes only. The password is shared with trusted users for access to exclusive content.</p>
+</footer>
+
+</body>
+</html>
